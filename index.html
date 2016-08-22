@@ -1,0 +1,316 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!--
+        
+        Hi there,
+        
+        Inspired by http://styletil.es/
+        
+        Made with Bootstrap 3 (http://getbootstrap.com/) and Initializr (http://www.initializr.com/).
+
+        With images from unsplash.com (https://unsplash.com/)
+        
+        An easy-to-edit html/css style tile template. Just go ahead and edit:
+        
+        1: Logo
+        2: Project title
+        3: Fonts (Google fonts)
+        4: Colors in color boxes
+        5: Textures in texture boxes
+        6: Buttons
+        7: Adjectives
+        8: Photos in photo boxes
+        
+        Instructions given below
+        
+        1: Logo
+        Find the file named logofile.jpg in the root of the download folder. Replace the file with yours. The logofile is 400 x 150 px, but sizes can vary.
+        
+        2: Project title
+        Skip to the part where You find the following comment: *Project title here*. You can easily do this by searching the document with Your code-editor.
+        Skip to the line below, and change the "Project title"
+        
+        3: Fonts (Google fonts)
+        Find three fonts on Google (https://fonts.google.com/), You want to use: 
+        Two display typographies for headings and subheadings and a typography well suited as body text.
+        Change the @import rule in the /*Typography*/ section of this document
+        Change the font-family typography values under .heading, .subheading and .bodytext, respectively.
+        
+        4: Colors in color boxes
+        There are six classes defining colors in this template (.color1 to .color6). Insert the HEX value in the /*Colors*/ section below.
+        
+        5: Textures in texture boxes
+        There are three textures in this template.
+        Find the files named texture1.jpg, texture2.jpg, texture3.jpg  in the root of the download folder. 
+        Replace the file with yours. The texture files are 200 x 250 px, but sizes can vary.
+        
+        6: Buttons
+        This theme supports two button types: General button and Submit button. You Can add custom styling to the buttons in the stylesheet below, by editing the styles in the /*Styles for buttons*/ section. 
+            .custombutton{
+                /*Custom styles for general buttons here*/
+            }
+            .submitbutton{
+                /*Custom styles for submit buttons here*/
+            }
+
+        7: Adjectives
+        Skit to the <div class="row" id="adjectives"> section in the html below. 
+        Change the adjective wordings to suit Your words. There is room for six adjectives in this template.
+
+        8: Photos in Photo boxes
+        There are eight photos in this template.
+        Find the files named imgbox1.jpg, imgbox2.jpg, imgbox2.jpg ... imgbox8.jpg in the root of the download folder. 
+        Replace the file with yours, keeping the same names. The image files are approximately 600 x 440 px, but sizes can vary.
+        
+        -->
+        
+        <style>
+            
+            /*Typography*/
+            @import 'https://fonts.googleapis.com/css?family=Bangers|Bungee+Shade|Roboto+Condensed';
+            
+            .heading{
+                font-family: 'Bungee Shade', cursive;
+            }
+            
+            .subheading{
+                font-family: 'Bangers', cursive;
+            }
+            
+            .bodytext{  
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            
+            /*Colors*/
+            
+            .color1{
+                background-color: #ff0000;
+            }
+            .color2{
+                background-color: #0000ff;
+            }
+            .color3{
+                background-color: #0000ff;
+            }
+            .color4{
+                background-color: #ffff00;
+            }
+            .color5{
+                background-color: #ff00ff;
+            }
+            .color6{
+                background-color: #00ffff;
+            }
+            
+            /*Textures*/
+            .texture1{
+                background: url('texture1.jpg');
+            }
+            .texture2{
+                background: url('texture2.jpg');
+            }
+            .texture3{
+                background: url('texture3.jpg');
+            }
+            
+            /*Photo boxes*/
+            .photo1{
+                background-image: url('imgbox1.jpg');
+            }
+            .photo2{
+                background-image: url('imgbox2.jpg');
+            }
+            .photo3{
+                background-image: url('imgbox3.jpg');
+            }
+            .photo4{
+                background-image: url('imgbox4.jpg');
+            }        
+            .photo5{
+                background-image: url('imgbox5.jpg');
+            }
+            .photo6{
+                background-image: url('imgbox6.jpg');
+            }
+            .photo7{
+                background-image: url('imgbox7.jpg');
+            }
+            .photo8{
+                background-image: url('imgbox8.jpg');
+            } 
+            
+            /*Styles for buttons*/
+            .custombutton{
+                
+            }
+            .submitbutton{
+                
+            }
+
+        </style>
+
+        <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="bodytext">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="container-fluid">
+            
+            <div class="row" id="styletileheader">
+                
+                <div class="hidden-xs col-sm-1 col-md-2 darkbg darktxt"><h1 class="heading">Project</h1></div> 
+        
+                <div class="col-xs-12 col-sm-5 col-md-3 logocontainer"><img src="logofile.jpg" class="img-responsive "></div>
+                
+                <!-- *Project title here* -->
+                <div class="col-xs-12 col-sm-6 col-md-7 darkbg text-center"><h1 class="heading">Project title</h1></div>            
+            
+            </div>
+            
+        </div> <!-- closes container surrounding the styletileheader-->
+        
+        <div class="container-fluid">
+            
+            <div class="row" id="styletilecontent">
+                
+                <!-- left content section -->
+                <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
+                    <div class="row" id="colorboxes">
+                        
+                        <div class="col-xs-12"><h2 class="heading">Visual elements</h2></div>
+                        
+                        <div class="col-xs-12"><h3 class="subheading">Colors</h3></div>
+                        
+      
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color1"> </div></div></div>
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color2"> </div></div></div>
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color3"> </div></div></div>
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color4"> </div></div></div>
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color5"> </div></div></div>
+                        <div class="col-xs-6 col-md-4 col-sm-offset-0"><div class="img-thumbnail colorbox"><div class="backgroundcolor color6"> </div></div></div>
+                        
+                    </div>
+                    
+                    <div class="row" id="textures">
+                        
+                        <div class="col-xs-12"><h3 class="subheading">Textures</h3></div>
+      
+                        <div class="col-xs-12 col-md-4 col-sm-offset-0"><div class="img-thumbnail texturebox"><div class="backgroundtexture texture1"> </div></div></div>
+                        <div class="col-xs-12 col-md-4 col-sm-offset-0"><div class="img-thumbnail texturebox"><div class="backgroundtexture texture2"> </div></div></div>
+                        <div class="col-xs-12 col-md-4 col-sm-offset-0"><div class="img-thumbnail texturebox"><div class="backgroundtexture texture3"> </div></div></div>
+                        
+                    </div>  
+                    
+                    <div class="row" id="buttons">
+                        
+                        <div class="col-xs-12"><h3 class="subheading">Buttons</h3></div>
+                        
+                        <div class="col-xs-12">
+                        
+                            <a href="" class="btn btn-default btn-lg custombutton">Button</a>
+
+                            <a href="" class="btn btn-warning btn-lg submitbutton">Submit Button</a>
+                            
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- left content section end -->
+                
+                <!-- right content section -->
+                <div class="col-xs-12 col-sm-5">
+                
+                    <div class="row" id="headersandtext">
+                        
+                        <div class="col-xs-12"><h2 class="heading">Text & Headers</h2></div>
+                        <div class="col-xs-12"><h6>Header font name: Bungee Shade</h6></div>
+                        
+                        <div class="col-xs-12"><h3 class="subheading">Sub Header Example</h3></div>
+                        <div class="col-xs-12"><h6>Font name: Bangers</h6></div>
+                        
+                        <div class="col-xs-12"><h3 class="subheading">Paragraph</h3></div>
+                        <div class="col-xs-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod mi eu velit dignissim, eget rutrum dolor imperdiet. Nunc eget felis quis nisl gravida pellentesque non et magna. Nunc pharetra justo at tortor cursus, et iaculis eros tristique. Ut fermentum justo at ex scelerisque, sit amet euismod massa pretium. Phasellus eget porta eros. Suspendisse aliquet risus dolor, non pulvinar massa pharetra nec. Donec at magna neque. Nullam volutpat ipsum sed lacus rutrum, vel posuere metus luctus. Duis accumsan gravida diam, et porta quam elementum ac.
+                        </div>
+                        <div class="col-xs-12"><h6>Font name: Helvetica</h6></div>
+                        
+                        <div class="col-xs-12">
+                        This is an example of a <a href="textlink">text based link</a>
+                        </div>
+                        
+                    </div>
+                    
+
+                    
+                    <div class="row" id="adjectives">
+                    
+                        <div class="col-xs-12"><h3 class="subheading">Adjectives</h3></div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjlarge heading">Lorem</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjsmall subheading">Ipsum</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjmedium heading">Dolor</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjmedium subheading">Sit</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjsmall heading">Amet</span>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4">
+                            <span class="adjlarge subheading">Magna</span>
+                        </div>
+                    
+                    </div>
+                    
+                </div>   
+                <!-- right content section end -->
+                
+                
+                
+            </div>
+            
+            <div class="row" id="images">
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo1"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo2"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo3"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo4"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo5"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo6"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo7"></div>
+                <div class="col-xs-6 col-sm-4 col-md-3 photobox photo8"></div>
+            </div>
+        
+        </div> <!-- closes container surrounding all style tile content -->
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        
+        <script src="js/vendor/bootstrap.min.js"></script>
+        
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

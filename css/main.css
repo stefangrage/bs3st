@@ -1,0 +1,133 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+
+    LIST OF CONTENT
+
+    Logo
+    Colors
+    Fonts/typography
+    Textures
+    Buttons
+    Links
+    Adjectives
+    Images
+
+*/
+
+/*General*/
+.img-responsive{
+    width: 100%;
+} 
+
+.row{
+    margin-bottom: 20px;
+}
+.row#images{
+    margin-bottom: 0; 
+}
+
+
+/*Header with project info*/
+.darkbg{
+    background-color: black;   
+}
+.darkbg h1{
+    margin-top: 10px;
+    color: white;
+}
+.darktxt h1{
+    color: black;
+}
+.logocontainer{
+    background-color: #FFF;
+    border: 1px solid gray;
+}
+@media screen and (min-width: 768px){
+    .darkbg.text-center{
+        text-align: left;
+    }
+}
+
+/*Styletilecontent*/
+#styletilecontent{
+    margin-top: 50px;
+}
+
+/*Headings*/
+h1, h2, h3, h4{
+        text-align: center;
+    }
+@media screen and (min-width: 768px){
+    h1, h2, h3, h4{
+        text-align: left;
+    }
+}
+
+/*Text elements*/
+div{
+        text-align: center;
+    }
+@media screen and (min-width: 768px){
+    div{
+        text-align: left;
+    }
+}
+
+/* Color boxes */
+
+.colorbox, .backgroundcolor{
+    min-height: 75px;
+    display: block;
+}
+
+.colorbox{
+    margin-bottom: 20px;
+}
+
+/*Texture boxes*/
+.texturebox, .backgroundtexture{
+    min-height: 125px;
+    display: block;
+}
+
+.backgroundtexture{
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.texturebox{
+    margin-bottom: 20px;
+}
+
+/*Adjective sizes*/
+.adjsmall, .adjmedium, .adjlarge{
+    line-height: 42px;
+    display: block;
+}
+.adjsmall{
+    font-size: 18px;
+}
+.adjmedium{
+    font-size: 27px;
+}
+.adjlarge{
+    font-size: 36px;
+}
+
+/*Photo boxes*/
+
+.photobox{
+    background: url('') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+    height: 250px;
+}
